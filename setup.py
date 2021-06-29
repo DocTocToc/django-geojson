@@ -19,7 +19,7 @@ setup(
         'Django>=2.2',
     ],
     extras_require={
-        'field': ['jsonfield', 'django-leaflet>=0.12'],
+        'field': ['django-leaflet>=0.12'],
         'docs': ['sphinx', 'sphinx-autobuild'],
     },
     packages=find_packages(),

@@ -11,7 +11,7 @@ try:
 except ImportError:
     HAS_LEAFLET = False
 try:
-    from jsonfield.fields import JSONField
+    from django.contrib.postgres.fields import JSONField
     from jsonfield.forms import JSONField as JSONFormField
 except ImportError:
     class Missing(object):
